@@ -20,7 +20,7 @@ package org.apache.kylin.jdbc;
 
 /**
  */
-public class DummyDriver extends Driver {
+public class DummyDriver extends Driver {  //edit by eric
 
     @Override
     protected String getFactoryClassName(JdbcVersion jdbcVersion) {
